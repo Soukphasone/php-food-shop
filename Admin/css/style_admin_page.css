@@ -1,0 +1,165 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+.d-flex{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    position: absolute;
+    right: 12px;
+    top: 5px;
+
+}
+
+#search{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.form-control
+{
+    width: 200px;
+    height: 40px;
+}
+.logo-shop{
+    margin-left: 4rem;
+    width: 250px;
+    height: 110px;
+    border-radius: 10%;
+}
+.navbar-nav{
+    margin-left: 25%;
+}
+.collapse .nav-item{
+    margin-left: 1rem;
+}
+.collapse a:hover{
+    font-size: 22px;
+    font-weight: 400;
+}
+.nav-item{
+    font-size: 20px;
+}
+
+.dropdown-menu a{
+    color: #fff;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+.container {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.container .content {
+    text-align: center;
+}
+
+.container .content h3 {
+    font-size: 30px;
+    color: #333;
+}
+.content h3 {
+    margin-bottom: 8rem;
+}
+
+.container .content h3 span {
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.container .content h1 {
+    font-size: 50px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.container .content h1 span {
+    background: crimson;
+}
+
+.container .content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container .content .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.container .content .btn:hover {
+    background: crimson;
+}
+
+/* Form style */
+
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+
+.form-container form {
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    width: 500px;
+}
+
+.form-container form h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.container .content a{
+    text-decoration: none;
+}
+.container .content a h1:hover{
+background: rgb(197, 223, 255);
+color: crimson;
+}

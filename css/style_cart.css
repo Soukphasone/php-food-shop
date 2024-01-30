@@ -1,0 +1,196 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+	body
+		{
+			background-color: #eee;
+		}
+    .content-add-pd {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      margin-top: 1rem;
+    }
+    #home{
+      font-size: 3rem;
+      margin-left: 10px;
+      color: #333131;
+    }
+    #home:hover{
+      color: black;
+    }
+    .content-add-pd h2{
+      margin-left: 18px;
+      margin-top: 21px;
+    }
+		#customers {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 90%;
+      margin-top: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    #customers td, #customers th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+    
+    #customers tr:hover {background-color: #ddd;}
+    
+    #customers th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color:#333131;
+      color: white;
+    }
+    #customers a {
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+    #customers td{
+      text-align: center;
+      
+    }
+    .img img{
+      width:60px;
+      height: 60px;
+  }
+  #customers .tongtien{
+    /* background-color:crimson; */
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  #customers .tongtien-gia{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  #customers td .remove{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .cart-quantity{
+    width: 50px;
+    height: 30px;
+  }
+  #cart-quantity{
+    font-size: 1rem;
+    text-align: center;
+  }
+.remove{
+  /* margin-top: 12px; */
+  height: 10px;
+  }
+  #remove{
+    font-size: 2rem;
+  }
+  .capnhat{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+#update{
+  width: 100px;
+  height: 40px;
+  background-color: rgb(6, 171, 6);
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+}
+#update:hover {
+  background-color: green;
+}
+.form-container {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+
+.form-container .form-buy {
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  width: 500px;
+}
+
+.form-container .form-buy h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-container .form-buy input,
+.form-container .form-buy select {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 17px;
+  margin: 8px 0;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.form-container .form-buy select option {
+  background: #fff;
+
+}
+
+.form-container .form-buy .form-btn {
+  background: #333131;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-container .form-buy .form-btn:hover {
+  background: black;
+  color: #fff;
+}
+
+.form-container .form-buy p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.form-container .form-buy p a {
+  color: crimson;
+
+}
+.form-container .form-buy p a:hover {
+  color: blue;
+
+}
+
+.form-container form .error-msg {
+  margin: 10px 0;
+  display: block;
+  background: #eee;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  color: crimson;
+}
+
+
